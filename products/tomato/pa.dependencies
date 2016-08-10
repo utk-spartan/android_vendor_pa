@@ -1,9 +1,5 @@
 [
   {
-    "repository": "android_device_cyanogen_msm8916-common",
-    "target_path": "device/cyanogen/msm8916-common"
-  },
-  {
     "remote": "soubhik-khan",
     "repository": "kernel",
     "target_path": "kernel/cyanogen/msm8916",
