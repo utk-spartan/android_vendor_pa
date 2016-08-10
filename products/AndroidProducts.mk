@@ -13,8 +13,8 @@
 # limitations under the License.
 
 # CAF
-ifeq (pa_bacon,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/bacon/pa_bacon.mk
+ifeq (pa_tomato,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/tomato/pa_tomato.mk
 endif
 ifeq (pa_oneplus2,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/oneplus2/pa_oneplus2.mk
