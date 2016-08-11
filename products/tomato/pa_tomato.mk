@@ -12,19 +12,24 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/yu/tomato/full_tomato.mk)
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-include vendor/pa/main.mk
 include device/qcom/common/common.mk
 
-TARGET_KERNEL_CONFIG := msm8916_defconfig
+# Inherit from tomato device
+$(call inherit-product, device/yu/tomato/device.mk)
 
-# Must define platform variant before including any common things
-TARGET_BOARD_PLATFORM_VARIANT := msm8939
+include vendor/pa/main.mk
 
-PRODUCT_NAME := pa_tomato
-BOARD_VENDOR := yu
+# Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tomato
+PRODUCT_NAME := pa_tomato
+PRODUCT_BRAND := YU
+PRODUCT_MODEL := AO5510
+PRODUCT_MANUFACTURER := YU
+PRODUCT_RELEASE_NAME :=YU Yureka
 
 PRODUCT_GMS_CLIENTID_BASE := android-micromax
 
