@@ -14,6 +14,9 @@
 
 $(call inherit-product, device/yu/tomato/full_tomato.mk)
 
+include vendor/pa/main.mk
+include device/qcom/common/common.mk
+
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8939
 
