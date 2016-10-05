@@ -1,0 +1,74 @@
+[
+    {
+        "remote":       "AOSPA-CLARK",
+        "repository":   "device_motorola_clark",
+        "target_path":  "device/motorola/clark",
+        "revision":     "mm6.0"
+    },
+    {
+        "remote":       "AOSPA-CLARK",
+        "repository":   "android_kernel_motorola_msm8992",
+        "target_path":  "kernel/motorola/msm8992",
+        "revision":     "android-6.0"
+    },
+    {
+        "remote":       "purenexus-clark",
+        "repository":   "proprietary_vendor_motorola",
+        "target_path":  "vendor/motorola",
+        "revision":     "mm2"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_frameworks_av",
+        "target_path":  "frameworks/av",
+        "revision":     "marshmallow-caf-8994"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_hardware_qcom_audio",
+        "target_path":  "hardware/qcom/audio",
+        "revision":     "marshmallow-caf-8994"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "marshmallow-caf-8994"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "marshmallow-caf-8994"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "marshmallow-caf-8994"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_hardware_qcom_bt",
+        "target_path":  "hardware/qcom/bt",
+        "revision":     "marshmallow-caf-8994"
+    },
+    {
+        "remote":       "purenexus-clark",
+        "repository":   "android_hardware_qcom_camera",
+        "target_path":  "hardware/qcom/camera",
+        "revision":     "mm2"
+    },
+    {
+        "remote":       "CyanogenMod",
+        "repository":   "android_hardware_sony_thermanager",
+        "target_path":  "hardware/sony/thermanager",
+        "revision":     "cm-13.0"
+    },
+    {
+        "remote":       "CyanogenMod",
+        "repository":   "android_hardware_sony_timekeep",
+        "target_path":  "hardware/sony/timekeep",
+        "revision":     "cm-13.0"
+    }
+]
