@@ -42,18 +42,6 @@
         "revision":     "marshmallow-caf-8994"
     },
     {
-        "remote":       "aospa",
-        "repository":   "android_hardware_qcom_gps",
-        "target_path":  "hardware/qcom/gps",
-        "revision":     "nougat"
-    },
-    {
-        "remote":       "aospa",
-        "repository":   "android_hardware_qcom_bt",
-        "target_path":  "hardware/qcom/bt",
-        "revision":     "marshmallow-caf-8994"
-    },
-    {
         "remote":       "purenexus-clark",
         "repository":   "android_hardware_qcom_camera",
         "target_path":  "hardware/qcom/camera",
