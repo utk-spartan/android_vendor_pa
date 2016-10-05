@@ -60,9 +60,9 @@
         "revision":     "cm-13.0"
     },
     {
-        "remote":       "aospa",
+        "remote":       "CyanogenMod",
         "repository":   "android_device_qcom_sepolicy",
         "target_path":  "device/qcom/sepolicy",
-        "revision":     "marshmallow-caf"
+        "revision":     "cm-13.0"
     }
 ]
