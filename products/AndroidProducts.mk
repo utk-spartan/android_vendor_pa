@@ -13,6 +13,9 @@
 # limitations under the License.
 
 # CAF
+ifeq (pa_clark,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/clark/pa_clark.mk
+endif
 ifeq (pa_bacon,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/bacon/pa_bacon.mk
 endif
