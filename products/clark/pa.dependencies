@@ -42,6 +42,12 @@
         "revision":     "marshmallow-caf-8994"
     },
     {
+        "remote":       "aospa",
+        "repository":   "android_external_connectivity",
+        "target_path":  "external/connectivity",
+        "revision":     "marshmallow-caf"
+    },
+    {
         "remote":       "purenexus-clark",
         "repository":   "android_hardware_qcom_camera",
         "target_path":  "hardware/qcom/camera",
