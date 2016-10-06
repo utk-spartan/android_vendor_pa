@@ -58,11 +58,5 @@
         "repository":   "android_hardware_sony_timekeep",
         "target_path":  "hardware/sony/timekeep",
         "revision":     "cm-13.0"
-    },
-    {
-        "remote":       "CyanogenMod",
-        "repository":   "android_device_qcom_sepolicy",
-        "target_path":  "device/qcom/sepolicy",
-        "revision":     "cm-13.0"
     }
 ]
